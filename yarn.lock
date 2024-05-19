@@ -6990,7 +6990,6 @@ __metadata:
     rollup-plugin-dts: "npm:^6.1.0"
     rollup-plugin-dts-5: "npm:rollup-plugin-dts@^5.3.1"
     rollup-plugin-polyfill-node: "npm:^0.13.0"
-    semver: "npm:^6.3.1"
     shelljs: "npm:^0.8.5"
     test262-stream: "npm:^1.4.0"
     through2: "npm:^4.0.0"
