@@ -1,12 +1,47 @@
-# 0 invalid programs did not produce a parsing error
+# 16 invalid programs did not produce a parsing error
+
+language/statements/await-using/syntax/await-using-invalid-switchstatement-caseclause.js(default)
+language/statements/await-using/syntax/await-using-invalid-switchstatement-caseclause.js(strict mode)
+language/statements/await-using/syntax/await-using-invalid-switchstatement-defaultclause.js(default)
+language/statements/await-using/syntax/await-using-invalid-switchstatement-defaultclause.js(strict mode)
+language/statements/await-using/syntax/with-initializer-case-expression-statement-list.js(default)
+language/statements/await-using/syntax/with-initializer-case-expression-statement-list.js(strict mode)
+language/statements/await-using/syntax/with-initializer-default-statement-list.js(default)
+language/statements/await-using/syntax/with-initializer-default-statement-list.js(strict mode)
+language/statements/using/syntax/using-invalid-switchstatement-caseclause.js(default)
+language/statements/using/syntax/using-invalid-switchstatement-caseclause.js(strict mode)
+language/statements/using/syntax/using-invalid-switchstatement-defaultclause.js(default)
+language/statements/using/syntax/using-invalid-switchstatement-defaultclause.js(strict mode)
+language/statements/using/syntax/with-initializer-case-expression-statement-list.js(default)
+language/statements/using/syntax/with-initializer-case-expression-statement-list.js(strict mode)
+language/statements/using/syntax/with-initializer-default-statement-list.js(default)
+language/statements/using/syntax/with-initializer-default-statement-list.js(strict mode)
 
 
+# 25 valid programs produced a parsing error
 
-
-# 5 valid programs produced a parsing error
-
-staging/sm/String/make-normalize-generateddata-input.py(default)
-staging/sm/String/make-normalize-generateddata-input.py(strict mode)
-staging/sm/extensions/inc-dec-functioncall.js(default)
-staging/sm/regress/regress-609617.js(default)
-staging/sm/statements/for-of-iterator-close.js(default)
+annexB/language/expressions/assignmenttargettype/callexpression-as-for-in-lhs.js(default)
+annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js(default)
+annexB/language/expressions/assignmenttargettype/callexpression-in-compound-assignment.js(default)
+annexB/language/expressions/assignmenttargettype/callexpression-in-postfix-update.js(default)
+annexB/language/expressions/assignmenttargettype/callexpression-in-prefix-update.js(default)
+annexB/language/expressions/assignmenttargettype/callexpression.js(default)
+annexB/language/expressions/assignmenttargettype/cover-callexpression-and-asyncarrowhead.js(default)
+language/identifiers/part-unicode-17.0.0-class-escaped.js(default)
+language/identifiers/part-unicode-17.0.0-class-escaped.js(strict mode)
+language/identifiers/part-unicode-17.0.0-class.js(default)
+language/identifiers/part-unicode-17.0.0-class.js(strict mode)
+language/identifiers/part-unicode-17.0.0-escaped.js(default)
+language/identifiers/part-unicode-17.0.0-escaped.js(strict mode)
+language/identifiers/part-unicode-17.0.0.js(default)
+language/identifiers/part-unicode-17.0.0.js(strict mode)
+language/identifiers/start-unicode-17.0.0-class-escaped.js(default)
+language/identifiers/start-unicode-17.0.0-class-escaped.js(strict mode)
+language/identifiers/start-unicode-17.0.0-class.js(default)
+language/identifiers/start-unicode-17.0.0-class.js(strict mode)
+language/identifiers/start-unicode-17.0.0-escaped.js(default)
+language/identifiers/start-unicode-17.0.0-escaped.js(strict mode)
+language/identifiers/start-unicode-17.0.0.js(default)
+language/identifiers/start-unicode-17.0.0.js(strict mode)
+language/statements/using/syntax/using-for-statement.js(default)
+language/statements/using/syntax/using-for-statement.js(strict mode)
